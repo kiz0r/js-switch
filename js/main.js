@@ -71,9 +71,8 @@ function whichDecade(dayOfMonth) {
   return determinant;
 }
 
-const decade = whichDecade(day);
-
 if (isCorrect(day)) {
+  const decade = whichDecade(day);
   switch (decade) {
     case 1:
       alert('Day refers to the first decade.');
